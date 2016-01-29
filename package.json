@@ -1,0 +1,20 @@
+{
+  "name": "dslounge.github.io",
+  "version": "1.0.0",
+  "description": "just my professional site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dslounge/dslounge.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dslounge/dslounge.github.io/issues"
+  },
+  "homepage": "https://github.com/dslounge/dslounge.github.io#readme"
+}
