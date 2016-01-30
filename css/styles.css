@@ -35,16 +35,16 @@ body{
 }
 
 .container{
-  /*background-color: rgba(255, 255, 255, .9);*/
+  background-color: rgba(255, 255, 255, .7);
 }
 
 .info-column {
   padding-bottom:.2em;
-  background-color: rgba(255, 255, 255, .8);
+  background-color: rgba(255, 255, 255, .2);
 }
 
 .msg-column {
-  background-color: rgba(255, 255, 255, .7);
+  /*background-color: rgba(255, 255, 255, .7);*/
 }
 
 .profile-image{
