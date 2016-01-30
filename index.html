@@ -34,14 +34,26 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<div>
+  <span class="visible-xs-block">XS</span>
+  <span class="visible-sm-block">sm</span>
+  <span class="visible-md-block">md</span>
+  <span class="visible-lg-block">lg</span>
+</div>
 <div class="vertical-center">
   <div class="container">
     <div class="row">
       <div class="col-sm-4 info-column">
-        <img
-          class="img-rounded profile-image"
-          src="img/profile.jpg" />
-        <h2>Rafael Mendiola<br><small>Software Developer</small></h2>
+        <div class="row">
+          <div class="col-sm-12 col-xs-3">
+            <img
+              class="img-rounded profile-image"
+              src="img/profile.jpg" />
+          </div>
+          <div class="col-sm-12 col-xs-9">
+            <h2>Rafael Mendiola<br><small>Software Developer</small></h2>
+          </div>
+        </div>
         <ul class="list-unstyled link-list">
           <li>
             <i class="fa fa-envelope"></i>
