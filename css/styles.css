@@ -3,12 +3,17 @@ html, body {
 }
 
 body{
-  background: url(/img/test-bg.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-color: #DDD;
 }
+
+@media (min-width: 992px) {
+  body {
+    background: url(/img/test-bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+  }
+}
+
+
 
 .vertical-center {
   min-height: 100%;
