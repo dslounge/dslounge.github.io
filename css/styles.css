@@ -24,3 +24,12 @@ html, body {
 .profile-image{
   width:100%;
 }
+
+.link-list {
+    font-size: 120%;
+}
+
+.link-list i{
+  display: inline-block;
+  margin-right: .5em;
+}
