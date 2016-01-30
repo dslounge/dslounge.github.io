@@ -2,6 +2,14 @@ html, body {
   height: 100%;
 }
 
+body{
+  background: url(/img/test-bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .vertical-center {
   min-height: 100%;
   min-height: 100vh;
@@ -19,6 +27,14 @@ html, body {
   -ms-flex-align : center;
   align-items : center;
 
+}
+
+.container{
+  background-color: #FFF;
+}
+
+.info-column {
+  background-color: #EEE;
 }
 
 .profile-image{
