@@ -35,14 +35,16 @@ body{
 
 .info-column {
   background-color: #EEE;
+  padding-bottom:.2em;
 }
 
 .profile-image{
   width:100%;
+  margin-top:1em;
 }
 
 .link-list {
-    font-size: 120%;
+  font-size: 120%;
 }
 
 .link-list i{
